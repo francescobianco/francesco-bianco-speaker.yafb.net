@@ -8368,24 +8368,10 @@ h1, h2, h3, h4, h5,
   font-size: 26px;
   position: relative;
   z-index: 0; }
-  .navbar-brand:after {
-    position: absolute;
-    top: 50%;
-    left: -12px;
-    width: 40px;
-    height: 40px;
-    content: '';
-    background: #2F7F26;
-    z-index: -1;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%; }
   .navbar-brand span {
-    color: #fff; }
+    color: #2F7F26; font-size: 105%; }
+.navbar-brand small {
+  color: #2F7F26; font-size: 60% }
 
 .hero-wrap {
   width: 100%;
